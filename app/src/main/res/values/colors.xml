@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundColor">#f8f8f8</color>
+    <color name="msgColor">#1e606a</color>
+    <color name="titleColor">#9b9b9b</color>
+    <color name="alertColor">#9b9b9b</color>
+    <color name="hintColor">#c5d8da</color>
+    <color name="disableButtonColor">#ffd994</color>
+    <color name="enableButtonColor">#ff9f1c</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

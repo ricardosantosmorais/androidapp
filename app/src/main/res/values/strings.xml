@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CVC</string>
+    <string name="app_title">Mudar senha</string>
+
+    <string name="msg_1">Para fazer uma <strong>nova senha</strong>, basta seguir estas regrinhas básicas:</string>
+    <string name="msg_2">- escolher no mínimo 6 caracteres;\n- ter pelo menos 1 número</string>
+    <string name="msg_3">E para sua segurança, não utilize infos pessoais como data de nascimento e nem sequência como "'"123456"'" ou "'"abcdef"'", ok?</string>
+
+    <string name="msg_sucess">Cadastro realizado com sucesso ;)</string>
+    <string name="msg_ok">OK</string>
+
+    <string name="prompt_password1">nova senha</string>
+    <string name="prompt_password2">repetir nova senha</string>
+    <string name="action_sign_in">Confirmar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">A senha digitada é muito curta</string>
+    <string name="error_incorrect_password">A segunda senha deve ser igual a primeira</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="error_post">Não foi possível realizar sua transação</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

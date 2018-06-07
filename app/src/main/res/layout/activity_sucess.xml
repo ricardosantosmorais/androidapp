@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundColor"
+    android:layout_height="match_parent"
+    tools:context=".activity.SucessActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="100dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/like" />
+
+        <TextView
+            android:layout_width="match_parent"
+            style="?android:textAppearanceMedium"
+            android:textColor="@color/msgColor"
+            android:text="@string/msg_sucess"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/msg_ok"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
